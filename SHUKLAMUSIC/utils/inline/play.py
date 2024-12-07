@@ -66,7 +66,8 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
-        ]
+        ],
+     ]
     return buttons
 
 
