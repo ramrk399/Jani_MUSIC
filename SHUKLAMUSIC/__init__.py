@@ -4,6 +4,7 @@ from SHUKLAMUSIC.core.git import git
 from SHUKLAMUSIC.core.userbot import Userbot
 from SHUKLAMUSIC.misc import dbb, heroku
 
+from SafoneAPI import SafoneAPI
 from .logging import LOGGER
 
 dirr()
@@ -13,6 +14,7 @@ heroku()
 
 app = SHUKLA()
 userbot = Userbot()
+api = SafoneAPI()
 
 
 from .platforms import *
@@ -24,3 +26,5 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
+
+APP = "ll_DRAGON_MUSIC_BOT"  # connect music api key "Dont change it"
