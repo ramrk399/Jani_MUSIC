@@ -1,5 +1,7 @@
 import math
 from pyrogram.types import InlineKeyboardButton
+from SHUKLAMUSIC import app
+import config
 from SHUKLAMUSIC.utils.formatters import time_to_seconds
 
 
